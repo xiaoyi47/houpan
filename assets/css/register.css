@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #666;
+    font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+    border: none;
+    outline: medium;     /*点击后不出现聚焦*/
+}
+.red{
+    font-size: 12px;
+    color:#f00;
+    float: left;
+}
+
+/*整个*/
+#whole{
+    background-color: #F0F0F0;
+}
+/*头部*/
+#Head{
+    width: 100%;
+    height: 200px;
+    border-bottom: #6899EC solid 1px;
+}
+/*头部上背景*/
+#backg1{
+    background-color: #f4f4f4 ;
+}
+/*头部上*/
+#Head #Onthehead {
+    width: 1150px;
+    height: 30px;
+    margin:0 auto;
+    font-size: 12px;
+    line-height: 30px;
+}
+#Head #Onthehead .HeadUpLeft{
+    float: left;
+}
+#Head #Onthehead .HeadUpRight{
+    float: right;
+}
+#Head #Onthehead .HeadUpRight .login{
+    color: #3C7BE6;
+}
+#Head #Onthehead .HeadUpRight a:hover{
+    color: #3C7BE6;
+}
+/*头部下背景*/
+#backg2{
+    background-color: #fff;
+}
+/*头部下*/
+#Head #UnderTheHead{
+    width: 1150px;
+    height: 170px;
+    margin:0 auto;
+}
+/*头部下上左*/
+#Head #UnderTheHead .HeadDownUpLeft h1{
+    width: 530px;
+    padding: 20px 0;
+    float: left;
+}
+/*头部下上右*/
+#Head #UnderTheHead .HeadDownUpRight{
+    width: 366px;
+    height: 62px;
+    float: left;
+    margin: 27px 0 0 0;
+
+}
+/*头部下上右上*/
+#Head #UnderTheHead .HeadDownUpRight .u1{
+    border: 1px #3C7BE6 solid;
+    width: 366px;
+    height: 34px;
+    line-height: 34px;
+}
+#Head #UnderTheHead .HeadDownUpRight .u1 li{
+    float: left;
+}
+#Head #UnderTheHead .HeadDownUpRight .u1 .l1{
+    width: 60px;
+    height: 34px;
+    font-size: 14px;
+    border-right: #6899EC solid 1px;
+}
+#Head #UnderTheHead .HeadDownUpRight .u1 .l1 span{
+    float: left;
+    width: 55px;
+    height: 27px;
+    line-height: 20px;
+    padding: 7px 0 0 5px;
+    background: url("../img/jian2.gif") no-repeat;
+    background-position: 41px 14px;
+    cursor: pointer;
+}
+#Head #UnderTheHead .HeadDownUpRight .u1 .l2 input{
+    float: left;
+    width: 218px;
+    height: 24px;
+    border: 0;
+    padding: 5px 0 5px 5px;
+    font-size: 14px;
+
+}
+#Head #UnderTheHead .HeadDownUpRight .u1 .l3{
+    float: left;
+    width: 80px;
+}
+#Head #UnderTheHead .HeadDownUpRight .u1 .l3 input{
+    float: left;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    width: 82px;
+    height: 34px;
+    font-size: 14px;
+    background-color: #6899EC;
+}
+/*头部下上右下*/
+#Head #UnderTheHead .HeadDownUpRight .d1{
+    color:#999;
+    margin: 10px 0 0 0;
+    font-size: 12px;
+}
+#Head #UnderTheHead .HeadDownUpRight .d1 a{
+    color:#999;
+    margin: 0 10px 0 0;
+}
+#Head #HeadDown{
+    float: left;
+    width: 930px;
+    height: 48px;
+}
+#Head #HeadDown a{
+    float: left;
+    font-size: 16px;
+    color: #333333;
+    padding: 13px 10px 0 10px;
+    margin-left: 10px;
+}
+/*筛选*/
+#screen{
+    width: 100%;
+    height: 260px;
+}
+#screen #Parent{
+    width: 1150px;
+    margin:0 auto;
+    height: 26px;
+}
+/*筛选上*/
+#screen #Parent .upper{
+    margin-top: 17px;
+    font-size: 12px;
+    height: 26px;
+}
+/*筛选中*/
+#screen #Parent .in{
+    margin: 10px 0 0 0;
+}
+#screen #Parent .in ul{
+    float: left;
+    margin: 0 0 0 80px;
+    width: 776px;
+    border: 2px solid #6899EC;
+    border-radius: 4px;
+}
+#screen #Parent .in ul .left{
+    width: 671px;
+    height: 40px;
+    float: left;
+}
+#screen #Parent .in ul .left input{
+    padding-left:40px;
+    font-size: 14px;
+    width: 630px;
+    height: 40px;
+    background:url("../img/wen.png") no-repeat;
+    background-position: 10px;
+    background-color: #fff;
+}
+#screen #Parent .in ul .right{
+    float: left;
+    width:105px;
+}
+#screen #Parent .in ul .right input{
+    float: left;
+    width:105px;
+    height: 40px;
+    background-color: #6899EC;
+    color: #fff;
+    cursor: pointer;
+}
+#screen #Parent .in .ViewRecords{
+    float: left;
+    width: 135px;
+    height: 31px;
+    margin-left:30px;
+    padding:13px 0 0 45px;
+    font-size: 14px;
+    background: url(../img/his.gif) no-repeat;
+    background-position: 12px;
+    background-color: #fff;
+    color:#333;
+}
+#screen #Parent .in .HotSearch{
+    color: #999;
+    width: 990px;
+    font-size: 14px;
+    float: left;
+    margin: 15px 105px 0 105px;
+}
+/*筛选下*/
+#screen #Parent .lower{
+    float: left;
+    width: 1100px;
+    margin: 15px 0  0;
+    padding: 0 25px 15px;
+    background-color: #fff;
+    border:1px solid #eee;
+}
+/*筛选下上*/
+#screen #Parent .lower .upul{
+    margin: 15px 0 0;
+    font-size: 14px;
+    width: 100%;
+}
+#screen #Parent .lower .upul li{
+    float: left;
+}
+#screen #Parent .lower .upul .l1{
+    width: 72px;
+    padding: 9px 10px 0 0;
+
+}
+#screen #Parent .lower .upul .l1 span{
+    color:#555;
+}
+#screen #Parent .lower .upul .l2{
+    width: 926px;
+    height: 36px;
+    overflow: hidden;
+    /*line-height: 36px;*/
+}
+#screen #Parent .lower .upul .l2 a{
+    float: left;
+    padding: 3px 10px 0 10px;
+    margin:5px 10px 0 0;
+    height: 23px;
+    border: #fff solid 1px;
+    color: #726e6e;
+    border-radius: 2px;
++
+}
+#screen #Parent .lower .upul .l2 .a1{
+    border:1px solid #68bef9;
+    background-color: #dceff9;
+    color:#1c99ef;
+}
+#screen #Parent .lower .upul .l2 a:hover{
+    border: #b4b4b4 solid 1px;
+    background-color: #f7f7f7;
+    color: #726e6e;
+}
+#screen #Parent .lower .upul .l3{
+    width: 90px;
+}
+#screen #Parent .lower .upul .l3 a{
+    float: right;
+    margin-top: 5px;
+    width: 46px;
+    height: 22px;
+    border: #dddddd solid 1px;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 4px 0 0 9px;
+    background: url(../img/jiandown.gif) no-repeat;
+    background-position: 37px 10px;
+}
+#screen #Parent .lower .upul .l3 a:hover{
+    background-color: #f9f9f9;
+}
+/*筛选下下*/
+
+#screen #Parent .lower .lo{
+    float: left;
+    width: 1098px;
+    margin: 15px 0 0 0;
+    font-size: 14px;
+    color: #555555;
+}
+#screen #Parent .lower .lo div{
+    float: left;
+}
+#screen #Parent .lower .lo .d1{
+    width: 52px;
+    padding-top: 9px;
+}
+#screen #Parent .lower .lo .d2{
+    width: 127px;
+    height: 30px;
+    margin: 4px 10px 0 0;
+}
+#screen #Parent .lower .lo .d2 .s1{
+    float: left;
+    width: 120px;
+    height: 24px;
+    border:1px solid #ddd;
+    border-radius: 2px;
+    padding: 4px 0 0 5px;
+    background:url("../img/jianv.gif")right center no-repeat ;
+    background-color: #fff;
+    cursor: pointer;
+}
+/*内容*/
+#content{
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 70px 0;
+}
+.content{
+    width: 1150px;
+    margin: 0 auto;
+    clear:both;
+}
+.content .regmain{
+    width: 1150px;
+    height: 534px;
+    min-height: 478px;
+    background: url("../img/loginbg.jpg") no-repeat;
+    background-color: #fff;
+}
+.content .regmain .regcenter{
+    float: left;
+    width: 550px;
+    padding: 40px 0 40px 0;
+    text-align: left;
+    margin-left: 480px;
+}
+.regmain .regcenter .cap{
+    width: 100%;
+    margin: 0 0 12px 0;
+    font-size: 34px;
+}
+.regmain .regcenter .u1{
+    float: left;
+    width: 358px;
+    height: 58px;
+    border: #f0f0f0 solid 1px;
+    margin: 10px 0 0 0;
+    border-radius: 3px;
+}
+.regmain .regcenter .u1 li{
+    float: left;
+}
+.regmain .regcenter .u1 .l1{
+    width: 80px;
+    font-size: 15px;
+    padding-left: 15px;
+    line-height: 58px;
+}
+.regmain .regcenter .u1 .l2{
+    width: 263px;
+}
+.regmain .regcenter .u1 .l2 input{
+    border: 0;
+    height: 58px;
+    font-size: 15px;
+    width: 100%;
+}
+.regmain .regcenter .regts{
+    float: left;
+    width: 180px;
+    height: 60px;
+    margin: 10px 0 0 10px;
+    line-height: 60px;
+}
+.regmain .regcenter .regts span{
+    float: left;
+}
+.regmain .regcenter .regts .s1{
+    margin-top: 22px;
+}
+.regmain .regcenter .regts .s2{
+    margin-left: 5px;
+}
+.regmain .regcenter .dbtn{
+    margin: 40px 0 0 0;
+    width: 100%;
+}
+.regmain .regcenter .dbtn input{
+    height: 60px;
+    width: 360px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #4c62fc;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.regmain .regcenter .d1{
+    margin: 30px 0 0 0;
+    width: 360px;
+    text-align: center;
+}
+.regmain .regcenter .d1 a{
+    border: #f1f1f1 solid 1px;
+    color: #999999;
+    padding: 5px 10px;
+    border-radius: 25px;
+    margin: 0 10px;
+    font-size: 12px;
+}
+.regmain .regcenter .d2{
+    width: 360px;
+    color: #ccc;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 12px;
+}
+.regmain .regcenter .d2 a{
+    color: #ccc;
+    text-decoration: underline;
+
+}
+/*底部*/
+.bottom{
+    width: 100%;
+    background-color: #fff;
+    border-top: #E6E6E6 solid 1px;
+    margin: 10px 0 0 0;
+    clear: both;
+}
+.bottom .center{
+    margin: 0 auto;
+    width: 1150px;
+    clear: both;
+}
+.bottom .center .d1{
+    float: left;
+    width: 750px;
+    border-right: #E6E6E6 solid 1px;
+    margin: 15px 0 0 0;
+}
+.bottom .center .d1 .u1{
+    float: left;
+    width: 750px;
+}
+.bottom .center .d1 .u1 li{
+    float: left;
+    width: 150px;
+    line-height: 25px;
+}
+.bottom .center .d1 .u1 li span {
+    float: left;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 26px;
+}
+.bottom .center .d1 .u1 li .a1{
+    color: #8a8a8a;
+    display: block;
+    font-size: 12px;
+}
+.bottom .center .d1 .u1 li a:hover{
+    color:#ff4f4f;
+}
+.bottom .center .d2{
+    float: left;
+    margin: 15px 0 0 50px;
+    width: 200px;
+    line-height: 25px;
+}
+.bottom .center .u2{
+    float: left;
+    margin: 15px 0 0 0;
+    width: 1150px;
+    border-top: #E6E6E6 solid 1px
+}
+.bottom .center .u2 .l1 {
+    width: 585px;
+    padding: 10px 0 10px 0;
+    line-height: 25px;
+    font-size: 12px;
+}
+.bottom .center .u2 .l1 i{
+    float: left;
+    color: #999;
+}
+#btad{
+    margin: 10px 0 0 0;
+    float: left;
+    font-size:12px;
+}
+
+
+

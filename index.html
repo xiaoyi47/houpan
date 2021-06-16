@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+<div id="whole">
+    <!-- 头部 -->
+    <div id="Head">
+        <!--头部上背景-->
+        <div id="backg1">
+            <!-- 头部上 -->
+            <div id="Onthehead">
+                <!-- 头部上左 -->
+                <div class="HeadUpLeft">欢迎来到猴盘源码交易商城-程序员的新天地</div>
+                <!-- 头部上右 -->
+                <div class="HeadUpRight">
+                <span>
+                    <a href="#" class="login">登录</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a href="register.html">免费注册</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a href="#">QQ登录</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a href="#">每日签到</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                </span>
+                    <span>
+                    <a href="#">帮助中心</a>
+                </span>
+                </div>
+            </div>
+        </div>
+        <!--头部下背景-->
+        <div id="backg2">
+            <!--头部下-->
+            <div id="UnderTheHead">
+                <!--头部下上左-->
+                <div class="HeadDownUpLeft">
+                    <h1>
+                        <a href="#"><img src="./assets/img/logo.png" alt=""></a>
+                    </h1>
+                </div>
+                <!--头部下上右-->
+                <div class="HeadDownUpRight">
+                    <form>
+                        <!--头部下上右上-->
+                        <ul class="u1">
+                            <li class="l1">
+                                <span>商品</span>
+                            </li>
+                            <li class="l2">
+                                <input type="text">
+                            </li>
+                            <li class="l3">
+                                <input type="submit" value="搜 索">
+                            </li>
+                        </ul>
+                    </form>
+                    <!--头部下上右下-->
+                    <div class="d1">
+                        热门搜索：
+                        <a href="#">交易所</a>
+                        <a href="#">棋牌源码</a>
+                        <a href="#">抖音点赞源码</a>
+                    </div>
+                </div>
+                <!--头部下下-->
+                <div id="HeadDown">
+                    <a href="#">首页</a>
+                    <a href="#">所有商品</a>
+                    <a href="#">新闻咨询</a>
+                    <a href="#">商家风采</a>
+                    <a href="#">手机版</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 筛选 -->
+    <div id="screen">
+        <div id="Parent">
+            <!--筛选上-->
+            <ul class="upper">
+                <li>当前位置：<a href="#">首页</a> ></li>
+            </ul>
+            <!--筛选中-->
+            <div class="in">
+                <form>
+                    <ul>
+                        <li class="left">
+                            <input type="text" placeholder="请输入关键词（多个条件可用空格隔开）" id="val">
+                            <div class="hide" id="show" style="display: none"></div>
+                        </li>
+                        <li class="right"><input type="submit" value="搜索"></li>
+                    </ul>
+                </form>
+                <div class="ViewRecords">点击查看浏览记录</div>
+                <div class="HotSearch">热门搜索：</div>
+            </div>
+            <!--筛选下-->
+            <div class="lower">
+                <!--筛选下上-->
+                <ul class="upul">
+                    <li class="l1">
+                        <span>商品分类</span>：
+                    </li>
+                    <li class="l2">
+                        <a href="#" class="a1">不限</a>
+                        <a href="#">项目合购</a>
+                        <a href="#">网站源码</a>
+                        <a href="#">教程商品</a>
+                        <a href="#">实物专区</a>
+                        <a href="#">软件分享</a>
+                        <a href="#">VIP专区</a>
+                    </li>
+                    <li class="l3"><a href="#">更多</a></li>
+                </ul>
+                <!--筛选下下-->
+                <div class="lo">
+                    <div class="d1">更多：</div>
+                    <div class="d2 xllists">
+                        <span class="s1">最近更新</span>
+                        <div id="xllist1" style="display: none" class="xllist">
+                            <a href="#">最近更新</a>
+                            <a href="#">最早发布</a>
+                            <a href="#">销量由高到低</a>
+                            <a href="#">销量由低到高</a>
+                            <a href="#">最多人关注</a>
+                            <a href="#">最少人关注</a>
+                            <a href="#">价格由高到低</a>
+                            <a href="#">价格由低到高</a>
+                        </div>
+                    </div>
+                    <div class="d2 xllists">
+                        <span class="s1">是否精选</span>
+                        <div style="display: none" id="xllist2" class="xllist">
+                            <a href="#">精选商品</a>
+                        </div>
+                    </div>
+                    <div class="d2 xllists">
+                        <span class="s1">发货形式</span>
+                        <div style="display: none" id="xllist3" class="xllist">
+                            <a href="#">自动发货</a>
+                        </div>
+                    </div>
+                    <div class="d2 xllists">
+                        <span class="s1">是否折扣</span>
+                        <div style="display: none" id="xllist4" class="xllist">
+                            <a href="#">会员折扣</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容 -->
+    <div id="content">
+        <div class="content">
+            <!--第一个商品-->
+            <ul class="u1">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/1.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+                    <span class="s1 st">本站</span>
+                    <span class="s2 st">精选</span>
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                    <span class="s1" title="自动发货商品，付款后即可获取该商品的发货信息（如下载地址、相关密码等）">自</span>
+                    <span class="s1" title="该商品已经加入会员等级折扣体系，本站会员可以享受相应的折价优惠">折</span>
+                </li>
+            </ul>
+            <!--第二个商品-->
+            <ul class="u1">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/2.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                    <span class="s1" title="自动发货商品，付款后即可获取该商品的发货信息（如下载地址、相关密码等）">自</span>
+                </li>
+            </ul>
+            <!--第三个商品-->
+            <ul class="u1">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/3.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                    <span class="s1" title="自动发货商品，付款后即可获取该商品的发货信息（如下载地址、相关密码等）">自</span>
+                </li>
+            </ul>
+            <!--第四个商品-->
+            <ul class="u1">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/4.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                    <span class="s1" title="自动发货商品，付款后即可获取该商品的发货信息（如下载地址、相关密码等）">自</span>
+                </li>
+            </ul>
+            <!--第五个商品-->
+            <ul class="u1 u0">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/5.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                    <span class="s1" title="自动发货商品，付款后即可获取该商品的发货信息（如下载地址、相关密码等）">自</span>
+                </li>
+            </ul>
+            <!--第六个商品-->
+            <ul class="u1">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/6.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                    <span class="s1" title="自动发货商品，付款后即可获取该商品的发货信息（如下载地址、相关密码等）">自</span>
+                </li>
+            </ul>
+            <!--第七个商品-->
+            <ul class="u1">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/7.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                    <span class="s1" title="自动发货商品，付款后即可获取该商品的发货信息（如下载地址、相关密码等）">自</span>
+                </li>
+            </ul>
+            <!--第八个商品-->
+            <ul class="u1">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/8.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                </li>
+            </ul>
+            <!--第九个商品-->
+            <ul class="u1">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/9.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                    <span class="s1" title="自动发货商品，付款后即可获取该商品的发货信息（如下载地址、相关密码等）">自</span>
+                </li>
+            </ul>
+            <!--第十个商品-->
+            <ul class="u1 u0">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/10.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                </li>
+            </ul>
+            <!--第十一个商品-->
+            <ul class="u1">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/11.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                </li>
+            </ul>
+            <!--第十二个商品-->
+            <ul class="u1">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/12.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                </li>
+            </ul>
+            <!--第十三个商品-->
+            <ul class="u1">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/13.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                    <span class="s1" title="自动发货商品，付款后即可获取该商品的发货信息（如下载地址、相关密码等）">自</span>
+                </li>
+            </ul>
+            <!--第十四个商品-->
+            <ul class="u1">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/14.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                </li>
+            </ul>
+            <!--第十五个商品-->
+            <ul class="u1 u0">
+                <li class="l1">
+                    <a href="commodity.html">
+                        <img src="assets/img/15.jpg" alt="">
+                    </a>
+                </li>
+                <li class="l2">
+
+                    <a href="#">2021最新28投资理财源码带短期定投、锁仓理财+视频教程</a>
+                </li>
+                <li class="l3">￥300</li>
+                <li class="l4">
+                    <a href="#">Muxi工作室</a>
+                </li>
+                <li class="l5">
+                    <span class="s0">旗舰店</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="bottom bfb">
+        <div class="center">
+            <div class="d1">
+                <ul class="u1">
+                    <li>
+                        <span><a href="#">卖家指南</a></span>
+                        <a href="#" class="a1">如何注册</a>
+                        <a href="#" class="a1">如何购买</a>
+                        <a href="#" class="a1">搜索商品</a>
+                        <a href="#" class="a1">支付方式</a>
+                    </li>
+                    <li>
+                        <span><a href="#">卖家指南</a></span>
+                        <a href="#" class="a1">如何出售</a>
+                        <a href="#" class="a1">收费标准</a>
+                        <a href="#" class="a1">入住签约</a>
+                    </li>
+                    <li>
+                        <span><a href="#">卖家指南</a></span>
+                        <a href="#" class="a1">钓鱼防骗</a>
+                        <a href="#" class="a1">预防盗号</a>
+                        <a href="#" class="a1">谨慎诈骗</a>
+                        <a href="#" class="a1">实名认证</a>
+                    </li>
+                    <li>
+                        <span><a href="#">卖家指南</a></span>
+                        <a href="#" class="a1">如何充值</a>
+                        <a href="#" class="a1">如何提现</a>
+                        <a href="#" class="a1">真假客服</a>
+                        <a href="#" class="a1">忘记密码</a>
+                    </li>
+                    <li>
+                        <span><a href="#">卖家指南</a></span>
+                        <a href="#" class="a1">我要咨询</a>
+                        <a href="#" class="a1">我要建议</a>
+                        <a href="#" class="a1">我要投诉</a>
+                        <a href="#" class="a1">QQ客服</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d2">
+                <strong>联系我们</strong>
+            </div>
+            <ul class="u2">
+                <li class="l1">
+                    <a href="#">关于我们</a>&nbsp;&nbsp;
+                    <a href="#">广告合作</a>&nbsp;&nbsp;
+                    <a href="#">联系我们</a>&nbsp;&nbsp;
+                    <a href="#">隐私条款</a>&nbsp;&nbsp;
+                    <a href="#">免责声明</a>&nbsp;&nbsp;
+                    <a href="#">网站地图</a>&nbsp;&nbsp;
+                    <i>| Copyright 2022 猴盘源码交易商城-程序员的新天地 版权所有</i>
+                </li>
+            </ul>
+            <div id="btad">
+                <a href="#"><img src="#" alt="底部广告"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/js/index.js"></script>
+</body>
+
+</html>
